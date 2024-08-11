@@ -8,8 +8,9 @@
   </head>
   <body>
     <main>
-      <h1>Calorie Counter</h1>
-      <div class="container">
+      
+      <h1 class="hoverable">Calorie Counter</h1>
+      <div class="hoverable container">
         <form id="calorie-counter">
           <label for="budget">Budget</label>
           <input
@@ -39,7 +40,7 @@
             <legend>Exercise</legend>
             <div class="input-container"></div>
           </fieldset>
-          <div class="controls">
+          <div class="hoverable controls">
             <span>
               <label for="entry-dropdown">Add food or exercise:</label>
               <select id="entry-dropdown" name="options">
@@ -49,14 +50,16 @@
                 <option value="snacks">Snacks</option>
                 <option value="exercise">Exercise</option>
               </select>
-              <button type="button" id="add-entry">Add Entry</button>
+              <button type="hoverable button" id="add-entry" class="button"><span>Add Entry</span></button>
             </span>
           </div>
           <div>
-            <button type="submit">
-              Calculate Remaining Calories
+            <button type="submit" class="hoverable button">
+              <span>
+                Calculate Remaining Calories
+              </span>
             </button>
-            <button type="button" id="clear">Clear</button>
+            <button type="button" id="clear" class="clear button hoverable"><span>Clear</span></button>
           </div>
         </form>
         <div id="output" class="output hide"></div>
