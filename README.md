@@ -8,3 +8,7 @@ v1.1:
 
 Added button animations.
 Added a colour-changing background.
+
+v1.2:
+
+Added a cursor trail and colour inversion effect.
